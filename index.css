@@ -1,0 +1,53 @@
+body{
+    font-family: 'Poppins';
+}
+
+
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    align-items: center;
+}
+
+.navtext{
+    display: flex;
+    gap: 32px;
+}
+
+.navtext p{
+    font-weight: 600;
+}
+
+.navactive{
+    color: #205295;
+}
+
+.slider{
+    margin: 0px 60px 60px 60px;
+}
+
+.slider img{
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+}
+
+.button{
+    text-decoration: none;
+    background: #205295;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.textbox{
+    background: #205295;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.textbox h2, .textbox p{
+    margin:  0px;
+}
