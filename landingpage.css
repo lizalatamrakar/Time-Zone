@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: -30px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background-color: #fff;
+    margin: 10px;
+   
+}
+
+
+.circle{
+    text-align: center;
+}
+
+.wishlist {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    margin: -20px;
+    height: 30px;
+}
+
+.profile {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    margin: -30px;
+    height: 20px;
+}
+
+.logo-search {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 45px;
+    margin-right: 20px;
+
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #205295;
+    border-radius: 20px;
+    width: 700px;
+    margin-left: 50px;
+}
+
+.user-actions a {
+    margin-left: 3px;
+    text-decoration: none;
+    color: #205295;
+    margin-top: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color:#100E0E;
+    color: #956320;
+    margin: 60px;
+}
+
+.hero-text {
+    max-width: 80%;
+    text-align:left;
+    padding-left: 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0 0;
+}
+
+.hero-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+
+.circle {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.top-picks {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.top-picks h2 {
+    text-align: left;
+    margin: 40px;
+    color: #080604;
+}
+
+.watches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.watch-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.watch-item img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.watch-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #443622;
+    margin: 90px;
+}
+
+
+footer{
+    position: absolute;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1500px;
+    height: 40px;
+    background: rgba(32, 82, 149, 0.5);
+    color: #080604;
+    margin-left: -30px;
+}
+
+
